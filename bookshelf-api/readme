@@ -1,0 +1,29 @@
+# Bookshelf API
+
+author : Wildan Aqlis
+ Bookshelf API
+
+📚 **Bookshelf API** adalah RESTful API sederhana untuk manajemen data buku, dibangun menggunakan **Hapi.js** dan disiapkan sebagai bagian dari **Submission Back-End Developer Dicoding**.
+
+---
+
+## 🚀 Fitur Utama
+
+- Menyimpan buku baru (`POST /books`)
+- Menampilkan seluruh buku (`GET /books`)
+- Menampilkan detail buku berdasarkan ID (`GET /books/{bookId}`)
+- Mengubah data buku berdasarkan ID (`PUT /books/{bookId}`)
+- Menghapus buku berdasarkan ID (`DELETE /books/{bookId}`)
+- Mendukung query parameter:
+  - `?name=` untuk mencari berdasarkan nama buku
+  - `?reading=0|1` untuk memfilter status sedang dibaca
+  - `?finished=0|1` untuk memfilter status selesai dibaca
+
+---
+
+## ⚙️ Instalasi
+
+1. ekstrak file ZIP.
+2. Jalankan perintah berikut untuk menginstall dependensi:
+   ```bash
+   npm install
